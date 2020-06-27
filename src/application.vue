@@ -1,6 +1,6 @@
 <template>
 	<div style="margin:10px;">
-		<h1>Karbon version 1.0</h1>
+		<h1>Karbon version 1.1</h1>
 		<v-form>
 			<v-text-field
 				v-model="text"
