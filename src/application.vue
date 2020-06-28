@@ -1,6 +1,6 @@
 <template>
 	<div style="margin:10px;">
-		<h1>Karbon version 2.0</h1>
+		<h1>Karbon version 2.5</h1>
 		<v-form>
 			<v-text-field
 				v-model="text"
@@ -34,7 +34,7 @@ export default {
 	methods: {
 		action() {
 			let $this = this;
-			ajax.post("http://localhost:3000/uppercase", {
+			ajax.post("http://api.ucapan.digital:8900/uppercase", {
 				text: $this.text
 			})
 				.then(response => {
